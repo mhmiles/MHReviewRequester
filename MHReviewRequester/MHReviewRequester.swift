@@ -12,7 +12,7 @@ private extension String {
   static let launchCount = "LaunchCount"
 }
 
-class ReviewRequester {
+public class ReviewRequester {
   static let shared = ReviewRequester()
   
   init() {
