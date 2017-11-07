@@ -13,7 +13,7 @@ private extension String {
 }
 
 public class ReviewRequester {
-  static let shared = ReviewRequester()
+  public static let shared = ReviewRequester()
   
   init() {
     incrementLaunchCount()
